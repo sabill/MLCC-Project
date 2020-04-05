@@ -1,0 +1,27 @@
+Data source: https://www.kaggle.com/c/joints-dm-2019/data
+
+Mr. Blankon, a new entrepreneur, he is interested in building a boarding house in Yogyakarta. He is a newcomer in Jogja. Because he was new in Yogyakarta, he was confused about finding a target market that was in line with his business type and what factors influenced him. Fortunately, Mr. Blankon has a friend who can help him predict whether in an area it is suitable to build a boarding house for boys, girls, or mix based on certain factors. You as a friend of Mr. Blankon who is kind and happy to help, is expected to help him. Therefore, you are asked to make a model that can determine the gender of a boarding house will be worth a son, daughter or mixed.
+
+total row = 3293 data
+total column = 17 variable
+
+Data features:
+- fac_1, fac_2,fac_3, fac_4, fac_5, fac_6, fac_7, fac_8
+  Available facilities in Mr. Blankon’s boarding house
+  datatype: bool (0,1)
+- poi_1 : distance to POI 1
+- poi_2 : distance to POI 2
+- poi_3 : distance to POI 3
+  another factors
+  datatype: int
+- size:  Area of room
+  datatype: int
+- price_monthly:  Rental cost in one month
+  datatype: int
+- room_count:  number of available room
+  datatype: int
+- total_call:  number of calling for the boarding house
+  datatype: int
+- gender: sexes allowed in the boarding house
+  datatype: string
+
